@@ -1,0 +1,26 @@
+{
+  "name": "test-nightwatch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/nightwatch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nekobato/test-nightwatch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nekobato/test-nightwatch/issues"
+  },
+  "homepage": "https://github.com/nekobato/test-nightwatch",
+  "dependencies": {
+    "nightwatch": "^0.5.32",
+    "selenium-standalone": "^2.44.0-1"
+  }
+}
