@@ -4,7 +4,6 @@ node_js:
 
 before_script:
   - npm install
-  - ./node_modules/.bin/start-selenium
 
 script:
   - npm test
