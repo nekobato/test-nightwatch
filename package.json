@@ -21,7 +21,6 @@
   "homepage": "https://github.com/nekobato/test-nightwatch",
   "dependencies": {
     "nightwatch": "^0.5.32",
-    "selenium-server": "^2.44.0",
     "selenium-standalone": "^2.44.0-1"
   }
 }
