@@ -23,9 +23,10 @@
       "selenium_port"  : 4444,
       "selenium_host"  : "localhost",
       "silent": true,
+      "output": true,
       "screenshots" : {
-        "enabled" : false,
-        "path" : ""
+        "enabled" : true,
+        "path" : "reports"
       },
       "desiredCapabilities": {
         "browserName": "firefox",
