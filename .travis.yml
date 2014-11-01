@@ -6,7 +6,7 @@ before_script:
   - "export DISPLAY=:99.0"
   - "sh -e /etc/init.d/xvfb start"
   - sleep 3
-  - ./node_modules/.bin/start-selenium
+  - ./node_modules/.bin/start-selenium -log reports/selenium.log
   - sleep 3
 
 script:
